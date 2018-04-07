@@ -27,7 +27,7 @@ RSpec.describe SessionsController, type: :controller do
 
     it 'creates user if it doesnt exist in the db' do
       auth = {
-        :provider => 'facebook',
+        :provider => 'github',
         :uid => '1234567',
         :info => {
           :email => 'blake@flatironschool.com',
