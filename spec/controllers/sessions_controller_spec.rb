@@ -43,7 +43,7 @@ RSpec.describe SessionsController, type: :controller do
     it "create the user correctly" do
       name = 'Blake Johnson'
       auth = {
-        :provider => 'facebook',
+        :provider => 'github',
         :uid => '1234567',
         :info => {
           :email => 'blake@flatironschool.com',
